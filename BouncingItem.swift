@@ -16,7 +16,7 @@ class BouncingItem: UIImageView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        stopAnimating()
+        startAnimating()
     }
     
     required init?(coder aDecoder: NSCoder) {
